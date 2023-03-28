@@ -13,7 +13,7 @@ public class UsmpSounds {
     public static SoundEvent UNKNOWN_FEELING = registerSoundEvent("an_unknown_feeling");
     public static SoundEvent NEW_WORLD = registerSoundEvent("a_new_world");
     public static SoundEvent ENDLESS_CORRIDORS = registerSoundEvent("endless_corridors_but_at_what_cost");
-    public static SoundEvent SCROLL_TIME = registerSoundEvent("a_scroll_though_time");
+    public static SoundEvent SCROLL_TIME = registerSoundEvent("a_scroll_through_time");
     public static SoundEvent NEW_FREEDOM = registerSoundEvent("a_new_way_of_freedom");
     public static SoundEvent TRAGEDY = registerSoundEvent("tragedy");
     public static SoundEvent FORGETABLE_MEMORY = registerSoundEvent("a_forgetable_memory");
@@ -28,6 +28,6 @@ public class UsmpSounds {
     }
 
     public static void register() {
-        WEIRD_AREA.getId();
+        ModMain.logger.info("Registered USMP Sounds");
     }
 }

@@ -2,7 +2,6 @@ package com.lumaa.usmp_tapes.items;
 
 import com.lumaa.usmp_tapes.ModMain;
 import com.lumaa.usmp_tapes.sounds.UsmpSounds;
-import com.lumination.backrooms.BackroomsMod;
 import com.lumination.backrooms.items.BackroomsItemsGroup;
 import com.lumination.backrooms.items.interactables.MusicTape;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -39,6 +38,6 @@ public class MoreTapes {
     }
 
     public static void register() {
-        WEIRD_AREA.getName();
+        ModMain.logger.info("Registered USMP Tapes Items");
     }
 }
