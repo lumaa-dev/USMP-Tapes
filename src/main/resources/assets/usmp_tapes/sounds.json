@@ -1,0 +1,114 @@
+{
+  "weird_area": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:weird_area",
+        "stream": true
+      }
+    ]
+  },
+  "the_underground": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:the_underground",
+        "stream": true
+      }
+    ]
+  },
+  "a_stressful_environment": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:a_stressful_environment",
+        "stream": true
+      }
+    ]
+  },
+  "an_unknown_feeling": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:an_unknown_feeling",
+        "stream": true
+      }
+    ]
+  },
+  "a_new_world": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:a_new_world",
+        "stream": true
+      }
+    ]
+  },
+  "endless_corridors_but_at_what_cost": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:endless_corridors_but_at_what_cost",
+        "stream": true
+      }
+    ]
+  },
+  "a_scroll_through_time": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:a_scroll_through_time",
+        "stream": true
+      }
+    ]
+  },
+  "a_new_way_of_freedom": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:a_new_way_of_freedom",
+        "stream": true
+      }
+    ]
+  },
+  "tragedy": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:tragedy",
+        "stream": true
+      }
+    ]
+  },
+  "a_forgetable_memory": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:a_forgetable_memory",
+        "stream": true
+      }
+    ]
+  },
+  "unreasonable_treatment": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:unreasonable_treatment",
+        "stream": true
+      }
+    ]
+  },
+  "an_end": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:an_end",
+        "stream": true
+      }
+    ]
+  },
+  "the_outside_world": {
+    "sounds": [
+      {
+        "name": "usmp_tapes:the_outside_world",
+        "stream": true
+      }
+    ]
+  },
+  "discoveries": {
+    "sounds": [
+      {
+        "usmp_tapes:discoveries",
+        "stream": true
+      }
+    ]
+  }
+}

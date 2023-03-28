@@ -3,15 +3,14 @@
   "id": "template",
   "version": "${version}",
 
-  "name": "Template",
-  "description": "This is just a template. If you can read this, then the author might've forgotten the description of the mod.",
+  "name": "USMP Tapes",
+  "description": "Adds Music Tapes from the Unknown SMP to The Backrooms Mod",
   "authors": [
     "LumaaDev"
   ],
   "contact": {
     "homepage": "https://lumaa.brebond.com/",
-    "sources": "https://github.com/lumaa-dev/LumaaTemplate",
-    "issues": "https://github.com/lumaa-dev/LumaaTemplate/issues"
+    "sources": "https://github.com/lumaa-dev/USMP-Tapes",
   },
 
   "license": "MIT",
@@ -20,17 +19,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.lumaa.template.TemplateMod"
+      "com.lumaa.usmp_tapes.ModMain"
     ]
   },
   "mixins": [
-    "template.mixins.json"
+    "usmp.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.18",
-    "fabric-api": ">=0.76.0",
-    "minecraft": "~1.19.4",
+    "fabric-item-group-api-v1": "*",
+    "minecraft": ">=1.19.3",
     "java": ">=17"
   }
 }

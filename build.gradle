@@ -10,13 +10,56 @@ archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
 
+repositories {
+	mavenCentral()
+	maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+	repositories {
+		maven {
+			name 'Xander Maven'
+			url 'https://maven.isxander.dev/releases'
+		}
+	}
+	maven {
+		name = 'ladysnake mods'
+		url = 'https://ladysnake.jfrog.io/artifactory/mods'
+		content {
+			includeGroup 'io.github.ladysnake'
+			includeGroupByRegex 'io\\.github\\.onyxstudios.*'
+		}
+	}
+	maven { url = "https://maven.kyrptonaught.dev" }
+	maven {
+		url 'https://api.modrinth.com/maven'
+		content {
+			includeGroup "maven.modrinth"
+		}
+	}
+
+	maven {
+		url "https://jitpack.io"
+	}
+}
+
+allprojects {
+	repositories {
+		mavenCentral()
+		maven {
+			url "https://jitpack.io"
+		}
+	}
+}
+
 dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
-	modImplementation 'com.github.lumaa-dev:BackroomsMod:beta-v0.1.3a'
+
+	// Fabric API
+	//modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation fabricApi.module("fabric-item-group-api-v1", project.fabric_version)
+
+	// BackroomsMod
+	modImplementation "com.github.lumaa-dev:BackroomsMod:${project.backrooms}"
 	
 	// LibuLib - Optional
 	// modImplementation "com.github.lumaa-dev:LibuLib:1.2.1"
