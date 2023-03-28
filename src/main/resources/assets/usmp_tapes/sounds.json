@@ -106,7 +106,7 @@
   "discoveries": {
     "sounds": [
       {
-        "usmp_tapes:discoveries",
+        "name": "usmp_tapes:discoveries",
         "stream": true
       }
     ]
