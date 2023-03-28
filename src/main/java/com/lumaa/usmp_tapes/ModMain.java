@@ -1,6 +1,7 @@
 package com.lumaa.usmp_tapes;
 
 import com.lumaa.usmp_tapes.items.MoreTapes;
+import com.lumaa.usmp_tapes.sounds.UsmpSounds;
 import net.fabricmc.api.ModInitializer;
 
 import java.util.logging.Logger;
@@ -11,6 +12,7 @@ public class ModMain implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        UsmpSounds.register();
         MoreTapes.register();
 
         logger.info("Initialized USMP Tapes");

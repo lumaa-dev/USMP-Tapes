@@ -28,7 +28,7 @@ public class MoreTapes {
     public static final Item DISCOVERIES = registerItem(new MusicTape(14, UsmpSounds.DISCOVERIES, new Item.Settings(), 1));
 
     private static Item registerItem(MusicTape item) {
-        Item newItem = Registry.register(Registries.ITEM, new Identifier(BackroomsMod.MOD_ID, item.getSound().getId().getNamespace() + "_tape"), item);
+        Item newItem = Registry.register(Registries.ITEM, new Identifier(ModMain.MODID, item.getSound().getId().getPath() + "_tape"), item);
 
         // put in item group
         ItemGroupEvents.modifyEntriesEvent(BackroomsItemsGroup.MusicTapes).register(content -> {
