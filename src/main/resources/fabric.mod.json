@@ -25,9 +25,8 @@
   "mixins": [
     "usmp.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.14.18",
+    "fabricloader": ">=0.14.17",
     "fabric-item-group-api-v1": "*",
     "minecraft": ">=1.19.3",
     "java": ">=17"
