@@ -17,6 +17,6 @@ public class ModMain implements ModInitializer {
         UsmpSounds.register();
         MoreTapes.register();
 
-        logger.info("[Unknown SMP - Tapes] Initialized Unknown SMP - Tapes");
+        logger.info("[Unknown SMP - Tapes] Initialized");
     }
 }
