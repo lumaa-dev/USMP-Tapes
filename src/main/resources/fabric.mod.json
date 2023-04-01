@@ -30,5 +30,11 @@
     "fabric-item-group-api-v1": "*",
     "minecraft": ">=1.19.3",
     "java": ">=17"
+  },
+
+  "custom": {
+    "modmenu": {
+      "parent": "backrooms"
+    }
   }
 }
