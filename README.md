@@ -11,7 +11,8 @@
 
 ## Description
 
-This small mod integrates the musics made for the [Unknown SMP](https://youtube.com/@unknownsmp) as Music Tapes from [The Backrooms Mod](https://modrinth.com/mod/backrooms)
+This small mod integrates the musics made for the [Unknown SMP](https://youtube.com/@unknownsmp) as Music Tapes from [The Backrooms Mod](https://modrinth.com/mod/backrooms).  
+In the creative menu, the tapes are in the correct order from oldest to newest.
 
 ## License
 This mod is under the [MIT License](/LICENSE) and songs under copyright of Lumaa.
