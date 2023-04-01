@@ -5,7 +5,9 @@
 
 <img src="https://raw.githubusercontent.com/lumaa-dev/lumaa-dev/main/assets/fabric-banner.png" width=600>
 
+<a href="https://modrinth.com/mod/usmp-tapes"><img src="https://raw.githubusercontent.com/lumaa-dev/art/main/badges/only_modrinth.png" width=150></a>
 <a href="https://discord.gg/Rqpn3C7yR5"><img src="https://raw.githubusercontent.com/lumaa-dev/art/main/badges/support_discord.png" width=150></a>
+<a href="https://docs.google.com/spreadsheets/d/1zrBJshX48qSnxicYFW-AIy_CmrKOT0d91QpU24vDvdQ/edit?usp=sharing"><img src="https://raw.githubusercontent.com/lumaa-dev/art/main/badges/modrinth_stats.png" width=150></a>
 
 </div></center>
 
