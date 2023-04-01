@@ -14,7 +14,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/usmp_tapes/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -34,7 +34,10 @@
 
   "custom": {
     "modmenu": {
-      "parent": "backrooms"
+      "parent": "backrooms",
+      "links": {
+        "modmenu.discord": "https://lumaa.brebond.com/support"
+      }
     }
   }
 }
